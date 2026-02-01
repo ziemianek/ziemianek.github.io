@@ -1,7 +1,7 @@
 :root {
-  --bg: #36382E;
-  --text: #EDE6E3;
-  --hover: #5BC3EB;
+  --bg: #0D0A0B;
+  --text: #F3EFF5;
+  --hover: #3F7D20;
 }
 
 * {
@@ -15,7 +15,6 @@ body {
   font-family: "Times New Roman", Times, serif;
 }
 
-/* NAVBAR */
 nav {
   display: flex;
   gap: 48px;
@@ -33,7 +32,6 @@ nav a:hover {
   color: var(--hover);
 }
 
-/* PLACEHOLDER SECTIONS */
 section {
   height: 100vh;
 }
