@@ -1,7 +1,7 @@
 :root {
   --bg: #0D0A0B;
   --text: #F3EFF5;
-  --hover: #3F7D20;
+  --hover: #5AFF15;
 }
 
 * {
@@ -12,27 +12,19 @@ body {
   margin: 0;
   background-color: var(--bg);
   color: var(--text);
-  font-family: "Times New Roman", Times, serif;
+  font-family: "VT323", monospace;
 }
 
 nav {
   display: flex;
-  gap: 48px;
-  padding: 32px 48px;
-  font-size: 28px;
 }
 
 nav a {
   text-decoration: none;
   color: var(--text);
-  transition: color 0.15s ease;
 }
 
 nav a:hover {
   color: var(--hover);
-}
-
-section {
-  height: 100vh;
 }
 
