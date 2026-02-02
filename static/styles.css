@@ -9,22 +9,20 @@
 }
 
 body {
-  margin: 0;
   background-color: var(--bg);
   color: var(--text);
   font-family: "VT323", monospace;
 }
 
-nav {
-  display: flex;
+a {
+    color: var(--text);
+    text-decoration: none;
 }
 
-nav a {
-  text-decoration: none;
-  color: var(--text);
+a:hover {
+    color: var(--hover);
 }
 
-nav a:hover {
-  color: var(--hover);
+img {
+    width: 200px;
 }
-
